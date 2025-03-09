@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.navbar-brand, .apple h2 {
+    font-family: 'lobster', 'sans-serif';
+}
+
+.me-n4 {
+    margin-right: -1.5rem !important;
+}
+
+.ms-n2 {
+    margin-left: -0.5rem !important;
+}
+
+.bg-custom {
+    background: url(images/lunchcopy.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.text-gradient {
+    background: linear-gradient(45deg, #fff, #f8f9fa, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.6px rgb(187, 53, 59);
+}
+
+.new img {
+    width: 180px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.apple {
+    height: 80vh;
+}
