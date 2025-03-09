@@ -26,6 +26,7 @@ html {
 .text-gradient {
     background: linear-gradient(45deg, #fff, #f8f9fa, #fff);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.6px rgb(187, 53, 59);
 }
